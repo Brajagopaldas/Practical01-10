@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Calculator {
+class Main {
     void num(double a, double b) {
         double add = a + b;
         double sub = a - b;
@@ -14,7 +14,7 @@ class Calculator {
     }
 }
 
-class Main {
+class Calculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
