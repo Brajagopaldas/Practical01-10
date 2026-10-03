@@ -18,7 +18,7 @@ class Circle {
         
         double radius = sc.nextDouble(); 
         
-        Circle obj = new Circle();
+        Main obj = new Main();
         obj.circle(radius);
         
         sc.close();
