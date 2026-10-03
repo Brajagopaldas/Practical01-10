@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Circle {
+class Main {
     void circle(double radius) {
         double area = 3.14 * radius * radius;
         double cf = 2 * 3.14 * radius;
@@ -11,7 +11,7 @@ class Circle {
     }
 }
 
-class Main {
+class Circle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Circle Radius : ");
