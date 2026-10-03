@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Rectangle {
+class Main {
     void reactArea(double length, double breadth) {
         double area = length * breadth;
         System.out.println();
@@ -8,7 +8,7 @@ class Rectangle {
         System.out.println("Area : " + area);
     }
 }
-class Main {
+class Rectangle {
     public static void main(String[] args){
     Scanner sc = new Scanner(System.in);
 
